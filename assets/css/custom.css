@@ -1,0 +1,23 @@
+body, html { height: 100%;margin: 0; }
+.parallax {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-image: url('/assets/images/mobile_game1.png');
+	min-height:100%;
+}
+.logo {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	text-align:center;
+}
+.gotcha-game {
+	position: relative;
+	bottom: -24px;
+}
